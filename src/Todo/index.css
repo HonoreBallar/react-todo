@@ -1,0 +1,27 @@
+body{
+    background-color: #38393b;
+}
+.header{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.footer{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.header,.footer{
+    background-color: #6c6c6c;
+    color: white;
+    padding: 20px;
+}
+.appContent{
+    background-color: #55555b;
+    padding: 60px 40px;
+    color: white;
+}
+.form-check-label::first-letter{
+    text-transform: capitalize;
+}
+.form-check small{
+    margin-left: 12px;
+}
